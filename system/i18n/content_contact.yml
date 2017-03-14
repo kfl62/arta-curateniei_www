@@ -1,0 +1,61 @@
+ro:
+  arta:
+    contact:
+      not_translated: "&nbsp;...traducere..."
+      uc: "&nbsp;&nbsp;...în curând..."
+      header_01: "Persoane de contact"
+      header_02: "Formular de contact"
+      tab_0:
+        p_01: ""
+        header_01: "dipl.ing. Ladislau Kovács (Manager General)"
+        li_01: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0744-390450"
+        li_02: "Email:&nbsp;manager@arta-curateniei.ro"
+        header_02: "Judith-Ildikó Kovács (Assistant Manager / Resurse Umane)"
+        li_03: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0745-636178"
+        li_04: "Email:&nbsp;office@arta-curateniei.ro"
+        header_03: "Edith Fodor-Kis (Contabilitate / Financiar)"
+        li_05: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0742-465077"
+        li_06: "Email:&nbsp;accounting@arta-curateniei.ro"
+      tab_1:
+        p_01: ""
+hu:
+  arta:
+    contact:
+      not_translated: "&nbsp;...fordítás..."
+      uc: "&nbsp;&nbsp;...hamarosan..."
+      header_01: "Felelős személyek"
+      header_02: "Nyomtatvány"
+      tab_0:
+        p_01: ""
+        header_01: "dipl.ing. Kovács László"
+        li_01: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0744-390450"
+        li_02: "Email:&nbsp;manager@arta-curateniei.ro"
+        header_02: "Kovács Judith Ildikó"
+        li_03: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0745-636178"
+        li_04: "Email:&nbsp;office@arta-curateniei.ro"
+        header_03: "Fodor-Kis Edith"
+        li_05: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0742-465077"
+        li_06: "Email:&nbsp;accounting@arta-curateniei.ro"
+      tab_1:
+        p_01: ""
+en:
+  arta:
+    contact:
+      not_translated: "&nbsp;...translation..."
+      uc: "&nbsp;&nbsp;...soon..."
+      header_01: "Contact persons"
+      header_02: "Contact form"
+      tab_0:
+        p_01: ""
+        header_01: "dipl.ing. László Kovács"
+        li_01: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0744-390450"
+        li_02: "Email:&nbsp;manager@arta-curateniei.ro"
+        header_02: "Judith-Ildikó Kovács"
+        li_03: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0745-636178"
+        li_04: "Email:&nbsp;office@arta-curateniei.ro"
+        header_03: "Edith Fodor-Kis"
+        li_05: "Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0742-465077"
+        li_06: "Email:&nbsp;accounting@arta-curateniei.ro"
+      tab_1:
+        p_01: ""
+

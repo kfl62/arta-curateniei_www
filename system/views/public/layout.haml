@@ -1,0 +1,16 @@
+!!! 5
+%html
+  = haml :'layout/_html-head'
+  %body{id: 'public', data: body_data}
+    %section.header
+      %header
+        = haml :'layout/_header'
+      %nav.menu
+        = haml :'layout/_menu'
+    %section.content
+      %aside.main
+        = yield
+      %aside.sidebar
+        = haml :'layout/_sidebar'
+    %footer
+      = haml :'layout/_footer'

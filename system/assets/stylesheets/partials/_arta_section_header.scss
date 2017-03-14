@@ -1,0 +1,76 @@
+section.header {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  header {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    #banner_container {
+      flex: 0 0 80rem;
+      // @include background-image-file('banner/00.jpg');
+      // background-position: center;
+      height: 20rem;
+      position: relative;
+    }
+    #banner {
+      cursor: move;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 80rem;
+      height: 20rem;
+      overflow: hidden;
+    }
+  }
+  nav {
+    flex: 1;
+    ul {
+      height: 3rem;
+      display: inline-block;
+      margin: 1rem 0rem;
+      li {
+        float: left;
+        a {
+          display: block;
+          font: {
+            size:1.3rem;
+            style: italic;
+          };
+          margin: 0;
+          padding: 1rem 1.2rem .5rem 1rem;
+          &:focus, &:hover, &:active {
+            background: $arta-color-bg-light;
+            color: $arta-color-txt-blue;
+            text-decoration: none;
+          }
+          em {
+            display: block;
+            font: {
+              size: 0.95rem;
+              style: normal;
+            }
+            color: gray;
+          }
+        }
+        &.active {
+          a {
+            background: {
+              image: image_url(unquote("/images/icons/favorite_8px.png"));
+              position: top right;
+              repeat: no-repeat;
+            };
+            border: 1px solid #e5e5e5;
+            color: #7c9015;
+            cursor: default;
+            padding: .9rem 1.1rem .4rem .9rem;
+          }
+        }
+      }
+    }
+    span {
+      float: right;
+      padding: 2.6rem .3rem .5rem .3rem;
+    }
+  }
+}

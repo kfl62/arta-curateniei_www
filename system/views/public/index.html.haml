@@ -1,0 +1,16 @@
+:ruby
+  @body_data = {slug: 'index'}
+
+%article
+  %header= t("#{body_data[:slug]}.header_01")
+  %p
+    = t("#{body_data[:slug]}.p_01")
+  %p
+    = t("#{body_data[:slug]}.p_02")
+  %header= t("#{body_data[:slug]}.header_02")
+  %ul.arrow-blue
+    %li= t("#{body_data[:slug]}.li_01")
+    %li= t("#{body_data[:slug]}.li_02")
+    %li= t("#{body_data[:slug]}.li_03")
+    %li= t("#{body_data[:slug]}.li_04")
+= haml "widgets/_refs".to_sym, locals: {refs: "r02"}  

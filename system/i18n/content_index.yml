@@ -1,0 +1,47 @@
+ro:
+  arta:
+      index:
+        not_translated: "&nbsp;...traducere..."
+        header_01: "Prezentarea companiei noastre"
+        p_01: "Societatea <strong>Cleantech Com s.r.l.</strong> a luat ființă în 1994 cu scopul de a comercializa produse de curățenie. Din anul 2000 activitatea s-a concentrat pe prestări servicii de curățenie profesională. Managerul societății, inginer de profesie, a investit mult și a făcut mari progrese în aprofundarea noii meserii, obținând multiple calificări - respectiv transfer de <strong>know-how</strong> din Austria și Ungaria."
+        p_02: "Cleantech Com s.r.l. dispune de un personal calificat cu <strong>diplome</strong> veritabile de <strong>\"Agent Curățenie Clădiri\"</strong> și este dotată cu mașini și ustensile performante pentru ușurarea muncii și satisfacerea maximă a nevoilor Clientelei.<br>Noi ne dedicăm de mai bine de <strong>10 ani</strong> asigurării <strong>igienei și confortului ambiental</strong> ale clădirilor Dvs, rezolvând cu succes o multitudine de probleme cazuale specifice - respectiv altele cu caracter special. Acest site deschide ușa tuturor proprietarilor de clădiri, facility-managerilor de clădiri și nu in ultimul rând celor ce doresc să insușească o meserie veritabilă!"
+        header_02: "în consecință"
+        li_01: "Dacă starea curățeniei este fluctuantă și nu mai e firesc ce se întâmplă..."
+        li_02: "Dacă vă este dificil să măsurați realizările și costurile aferente..."
+        li_03: "Dacă curățenia vă da o satisfacție sufletească și e plăcerea ochilor..."
+        li_04: "Dacă vreți să știți unde să incepeti și când veți termina... ca măine s-o luați din nou de la capăt... atunci..."
+        link_01_href: "/services.html"
+        link_01_title: "Servicii și consultanță"
+        link_01_innerHTML: "&nbsp;Sunteți doar la un <strong>Click</strong> de deznodământ"
+hu:
+  arta:
+    index:
+      not_translated: "&nbsp;...fordítás..."
+      header_01: "Néhány szóban magunkról"
+      p_01: ""
+      p_02: ""
+      header_02: "következtetésképpen"
+      li_01: ""
+      li_02: ""
+      li_03: ""
+      li_04: ""
+      link_01_href: "/hu/services.html"
+      link_01_title: "Szolgáltatások és konzultáció"
+      link_01_innerHTML: "&nbsp;csak egy <strong>Click</strong>-re van a megoldástól"
+
+en:
+  arta:
+    index:
+      not_translated: "&nbsp;...translation..."
+      header_01: "Few words about us"
+      p_01: "Our company <strong>Cleantech Com Ltd.</strong> was founded in 1994 with its purpose of commercializing cleaning products. From the year 2000 the activity focused on rendering professional cleaning services. The manager of the company, who is an engineer by profession, invested a lot and made great progress in order of understanding the new profession, obtaining multiple qualifications - respectively 'know-how' transfers from Austria and Hungary"
+      p_02: "The company has a qualified personnel with authentic <strong>\"Buildings Cleaning Agent\"</strong> diplomas and it's equipped with advanced machinery and tools for relieving work, and obtaining maximum satisfaction of its clientele needs.  We've been dedicating ourselves for over <strong>10 years</strong> to ensure <strong>hygiene and ambient comfort</strong> of your buildings, successfully resolving a multitude of casual problems - respectively other problems with special character. This web-site opens the door to many building owners, building facility managers and of course for those who wish to acquire a veritable profession."
+      header_02: "therefore"
+      li_01: "If cleaning status is fluctuating and it's not normal what is going on..."
+      li_02: "If its difficult to measure afferent achievements and costs..."
+      li_03: "If cleaning gives you a spiritual satisfaction and it is the eyes pleasure...or..."
+      li_04: "If you want to know where to begin and when will it be done... so tomorrow you can start all over again... then..."
+      link_01_href: "/en/services.html"
+      link_01_title: "Services and Consulting"
+      link_01_innerHTML: "&nbsp;You are just on <strong>Click</strong> away from the denouement!"
+

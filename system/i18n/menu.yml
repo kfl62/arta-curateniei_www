@@ -1,0 +1,30 @@
+ro:
+  arta:
+    menu:
+      index: "Prima pagină <em>cine suntem?</em>"
+      services: "Servicii și consultanță <em>ce facem?</em>"
+      products: "Produse <em>cu ce lucrăm?</em>"
+      gallery: "Galerie <em>cum lucrăm?</em>"
+      clients: "Recomandări<em>pentru cine lucrăm?</em>"
+      contact: "Contact<em>nu ezitați!</em>"
+      path: "/"
+hu:
+  arta:
+    menu:
+      index: "Elöször<em>kik vagyunk?</em>"
+      services: "Szolgáltatások<em>mit dolgozunk?</em>"
+      products: "Termékek<em>mivel dolgozunk?</em>"
+      gallery: "Fotó galéria<em>hogyan dolgozunk?</em>"
+      clients: "Vélemények<em>kinek dolgozunk?</em>"
+      contact: "Kapcsolat<em>ne habozzon!</em>"
+      path: "/hu/"
+en:
+  arta:
+    menu:
+      index: "Home <em>who we are?</em>"
+      services: "Services<em>what are we doing?</em>"
+      products: "Products<em>cu ce lucrăm?</em>"
+      gallery: "Gallery<em>cum lucrăm?</em>"
+      clients: "References<em>pentru cine lucrăm?</em>"
+      contact: "Contact<em>nu ezitați!</em>"
+      path: "/en/"

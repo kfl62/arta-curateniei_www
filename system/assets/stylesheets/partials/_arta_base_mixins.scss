@@ -1,0 +1,58 @@
+@font-face{
+  font-family: 'EmbossedBlackWideNormal';
+  src: url('#{$arta-font-path}/Embossed_Black_Wide-webfont.eot');
+  src: url('#{$arta-font-path}/Embossed_Black_Wide-webfont.woff') format('woff'),
+    url('#{$arta-font-path}/Embossed_Black_Wide-webfont.ttf') format('truetype'),
+    url('#{$arta-font-path}/Embossed_Black_Wide-webfont.svg') format('svg');
+}
+@mixin background-image-file($file,$color: transparent){
+  background: {
+    image: image_url(unquote($file));
+    color: $color;
+    position: .5rem center;
+    repeat: no-repeat;
+  };
+}
+@mixin widget-header-background($bck: blank, $toggle: false) {
+  @if $toggle {
+    background: {
+      image: image_url(unquote("/images/icons/#{$bck}.png")), image_url(unquote("/images/icons/toggle_hand.png"));
+      position: 0.5em center, right top;
+    };
+    cursor: pointer;
+  }
+  @else {
+    background: {
+      image: image_url(unquote("/images/icons/#{$bck}.png"));
+      position: 0.5em center;
+    };
+  }
+}
+@mixin widget_refs_background($firm: millefiori) {
+  background: {
+    image: image_url(unquote("/images/logo/#{$firm}_quote.png"));
+    position: top left;
+    repeat: no-repeat;
+  };
+  padding-left: 14rem;
+}
+@mixin cleantech-first-letter {
+  &:first-letter {
+    float: left;
+    font: {
+      family: "Cleantech";
+      size: 300%;
+    };
+    line-height: 1.8rem;
+    margin: {
+      top: .3rem;
+      right: .5rem;
+    };
+    //:text-shadow #ff0000 1px 1px 1px
+  }
+}
+@mixin border-radius-bottom-right($radius) {
+  border-bottom-right-radius: $radius;
+  -moz-border-radius-bottomright: $radius;
+  -webkit-border-bottom-right-radius: $radius;
+}

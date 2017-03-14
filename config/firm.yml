@@ -1,0 +1,30 @@
+firm:
+  public:
+    controller:     'public'
+    views:          ''
+    layout:         ''
+    page:
+      title:        'Arta Curățeniei'
+      header:       'Să desăvârșim Arta Curățeniei...'
+      footer_text:  '&copy; 2000-2015 Ladislau Kovács'
+      footer_title: 'Ferenc-Loránt Kiss'
+  system:
+    page:
+      title:        'Arta Curățeniei'
+      header:       'Arta Curățeniei'
+      footer_text:  '&copy; 2000-2015 kfl62'
+      footer_title: 'Ferenc-Loránt Kiss'
+
+  sass_dir:     'system/assets/stylesheets'
+  css_dir:      'public/stylesheets'
+  css_path:     '/stylesheets'
+  css_file:     'application.css'
+  images_dir:   'public/images'
+  images_path:  '/images'
+  i18n_path:    'arta'
+  js_path:      'arta'
+
+  models_path:  [arta]
+  db_devel:     'arta'
+  db_test:      'arta'
+  db_prod:      'arta_test'

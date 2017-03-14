@@ -1,0 +1,9 @@
+-if refs != "all"
+  %article
+    %header= t("refs.header") + " ( " + t("refs.#{refs}.title") + " )"
+    %p{:id => "refs_#{refs}", :class => "first-letter"}= t("refs.#{refs}.content")
+-else
+  -for r in ["r01","r02","r03","r04","r05","r06"]
+    %article
+      %p{:id => "refs_#{r}", :class => "first-letter"}= t("refs.#{r}.content")
+      %span= "{ " + t("refs.#{r}.title") + " }"

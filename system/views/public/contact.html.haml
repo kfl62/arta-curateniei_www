@@ -1,0 +1,20 @@
+:ruby
+  @body_data = {slug: 'contact'}
+
+%nav
+  %ul#ul_tabs
+    %li.toggleTab.active=t("#{body_data[:slug]}.header_01")
+    %li.toggleTab=t("#{body_data[:slug]}.header_02")
+%article.toggle-tab#tab_0
+  %article#manager
+    %header.contact=t("#{body_data[:slug]}.tab_0.header_01")
+    %ul.arrow-blue
+      %li=t("#{body_data[:slug]}.tab_0.li_01")
+      %li=t("#{body_data[:slug]}.tab_0.li_02")
+  %article#humres
+    %header.contact=t("#{body_data[:slug]}.tab_0.header_02")
+    %ul.arrow-blue
+      %li=t("#{body_data[:slug]}.tab_0.li_03")
+      %li=t("#{body_data[:slug]}.tab_0.li_04")
+%article.toggle-tab.hidden#tab_1
+  %article#form=t("#{body_data[:slug]}.uc")

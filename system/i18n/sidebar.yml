@@ -1,0 +1,122 @@
+ro:
+  arta:
+    widgets:
+      uc: "În curând..."
+    google:
+      title: "Ne găsiți ușor la"
+      address: "<strong>adresa:</strong> str. Mică nr.257<br>407513, Vlaha, jud.Cluj, România"
+    contact:
+      phone: "Sau la telefon:"
+    news:
+      title: "Noutăți"
+    servicesW:
+      title: "Cum lucrăm noi?"
+      li_01: "Evaluare potențial în teren;"
+      li_02: "Dimensionarea tuturor resurselor necesare (umane și materiale);"
+      li_03: "Precizarea impreună a unor cerințe specifice;"
+      li_04: "Armonizarea team-materiale necesare;"
+      li_05: "Tratarea imediată a particula-rităților apărute pe parcursul implementării;"
+      li_06: "Stabilirea de comun acord a preţului de cost."
+      q_01: "...și să nu uităm că, într-o ambianță curată se nasc idei curate și produc-tivitatea muncii crește cu 20-25% !"
+    consultingW:
+      title: "Idei de selecție majore ale unei firme de curățenie:"
+      li_01:
+        li_01_00: "Planul procedural (baza viitoarei ANEXA) din ofertă trebuie să conțină și să asigure:"
+        li_01_01: "Lista tuturor prestațiilor cf Caietului de Sarcini;"
+        li_01_02: "Lista cantitativă și calitativă a materialelor și mărcilor;"
+        li_01_03: "Informații cu privire la <q>arrier-garda</q> societății furnizoare;"
+        li_01_04: "Posibilitățile de contactare imediată a Responsabilul (în caz de nevoie);"
+        li_01_05: "Referințele existente cu nume și numere pentru contactare."
+      li_02: "Trasarea sistemului de transmitere al informației astfel, încăt să asigure raportarea la termenele stabilite și in mod obiectiv."
+      li_03: "Modalitatea de înființare a unui sistem de asigurare al calității și controlului (se atașează atestatul), prin combinarea unor mijloace obiective și subiective. Astfel, se vor aplica procedee de monitoring, care ajută la compararea cu termenii contractuali, respectiv ele se pot documenta și reproduce."
+      li_04:
+        li_04_00: "Planul procedural (baza viitoarei ANEXA) din ofertă trebuie să conțina și să asigure:"
+        li_04_01: "Posedă cunoștinte aprofundate? (în caz că apar elemente noi);"
+        li_04_02: "Capacitatea sa de luare a deciziilor prompte, eficiente și urmăribile;"
+        li_04_03: "Procedurile din ofertă sunt viabile (<q>pornire</q> rapidă și lină);"
+        li_04_04: "Supraveghere sistematică la intervale prestabilite. (eventual ziua/ora)"
+      li_05: "Date despre personalul direct productiv: dacă vor participa la cursuri de calificare; modalități de recrutare/selecție; modalități de motivare; grile de salarizare etc."
+      q_01: "Responsabilul cu Oferta va trebui să convinga Clientul său că întelege perfect doleanțele acestuia și este capabil să le satisfacă!"
+    weather:
+      title: "Vremea la Cluj"
+hu:
+  arta:
+    widgets:
+      uc: "Hamarosan..."
+    google:
+      title: "Megtalál az alábbi"
+      address: "<strong>címen:</strong> Kis utca 257 szám<br>407513, Magyarfenes, Kolozs megye, Románia"
+    contact:
+      phone: "Vagy telefonon:"
+    news:
+      title: "Újdonságok"
+    servicesW:
+      title: ""
+      li_01: ""
+      li_02: ""
+      li_03: ""
+      li_04: ""
+      li_05: ""
+      q_01: ""
+    consultingW:
+      title: ""
+      li_01:
+        li_01_00: ""
+        li_01_01: ""
+        li_01_02: ""
+        li_01_03: ""
+        li_01_04: ""
+        li_01_05: ""
+      li_02: ""
+      li_03: ""
+      li_04:
+        li_04_00: ""
+        li_04_01: ""
+        li_04_02: ""
+        li_04_03: ""
+        li_04_04: ""
+      li_05: ""
+      q_01: ""
+    weather:
+      title: "Milyen az idő Kolozsváron?"
+en:
+  arta:
+    widgets:
+      uc: "Soon..."
+    google:
+      title: "Easy to find us on"
+      address: "<strong>address:</strong>Mică street, nr.257<br>407513, Vlaha, Cluj county, Romania"
+    contact:
+      phone: "or phone:"
+    news:
+      title: "News"
+    servicesW:
+      title: ""
+      li_01: ""
+      li_02: ""
+      li_03: ""
+      li_04: ""
+      li_05: ""
+      q_01: ""
+    consultingW:
+      title: ""
+      li_01:
+        li_01_00: ""
+        li_01_01: ""
+        li_01_02: ""
+        li_01_03: ""
+        li_01_04: ""
+        li_01_05: ""
+      li_02: ""
+      li_03: ""
+      li_04:
+        li_04_00: ""
+        li_04_01: ""
+        li_04_02: ""
+        li_04_03: ""
+        li_04_04: ""
+      li_05: ""
+      q_01: ""
+    weather:
+      title: "Weather at Cluj"
+

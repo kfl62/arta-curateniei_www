@@ -1,0 +1,43 @@
+ro:
+  arta:
+    gallery:
+      not_translated: "&nbsp;...traducere..."
+      uc: "&nbsp;&nbsp;...în curând..."
+      header: "Albume din categoria (Pardoseli)"
+      article_00:
+        header: "Galerie foto (info)"
+        p_01: "Fotografiile sunt organizate în categorii, respectiv albume, și le puteți viziona accesând meniul din dreapta."
+        p_02: "<strong>Notă:</strong> -fotografiile din această galerie fac parte din colecția personală al lui Ladislau Kovacs. Cele marcate ca și \"public\" (în subsolul paginii în care apar) se pot descărca urmârind link-ul, celelalte cad sub incidența licenței <a href='http://en.wikipedia.org/wiki/Creative_Commons_International' target='_blank'>Creative Commons International (by-nc)</a> și le puteți obține completând un <a href='/arta-curateniei-cluj-contact.html'>formular</a>."
+      article_01:
+        header: "Albume din categoria \"Pardoseli\""
+      article_02:
+        header: "Albume din categoria \"...\""
+hu:
+  arta:
+    gallery:
+      not_translated: "&nbsp;...fordítás..."
+      uc: "&nbsp;&nbsp;...hamarosan..."
+      header: ""
+      article_00:
+        header: "Fotó galéria"
+        p_01: ""
+        p_02: ""
+      article_01:
+        header: ""
+      article_02:
+        header: ""
+en:
+  arta:
+    gallery:
+      not_translated: "&nbsp;...translation..."
+      uc: "&nbsp;&nbsp;...soon..."
+      header: ""
+      article_00:
+        header: "Photo gallery"
+        p_01: ""
+        p_02: ""
+      article_01:
+        header: ""
+      article_02:
+        header: ""
+

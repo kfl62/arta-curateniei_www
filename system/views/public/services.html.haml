@@ -1,0 +1,76 @@
+:ruby
+  @body_data = {slug: 'services'}
+
+%nav
+  %ul#ul_tabs
+    %li.toggleTab.active=t("#{body_data[:slug]}.header_01")
+    %li.toggleTab=t("#{body_data[:slug]}.header_02")
+%article.toggle-tab#tab_0
+  %p=t("#{body_data[:slug]}.tab_0.p_01")
+  %ul#ul_tab0_main.arrow-blue
+    %li=t("#{body_data[:slug]}.tab_0.li_01")
+    %li=t("#{body_data[:slug]}.tab_0.li_02")
+    %li=t("#{body_data[:slug]}.tab_0.li_03")
+    %li=t("#{body_data[:slug]}.tab_0.li_04")
+    %li=t("#{body_data[:slug]}.tab_0.li_05")
+    %li=t("#{body_data[:slug]}.tab_0.li_06")
+    %li<
+      =t("#{body_data[:slug]}.tab_0.li_07.li_07_00")
+      %ul#ul_tab0_sub.arrow-grey
+        %li=t("#{body_data[:slug]}.tab_0.li_07.li_07_01")
+        %li=t("#{body_data[:slug]}.tab_0.li_07.li_07_02")
+        %li=t("#{body_data[:slug]}.tab_0.li_07.li_07_03")
+        %li=t("#{body_data[:slug]}.tab_0.li_07.li_07_04")
+        %li=t("#{body_data[:slug]}.tab_0.li_07.li_07_05")
+    %li=t("#{body_data[:slug]}.tab_0.li_08")
+    %li=t("#{body_data[:slug]}.tab_0.li_09")
+    %li=t("#{body_data[:slug]}.tab_0.li_10")
+    %li=t("#{body_data[:slug]}.tab_0.li_11")
+    %li=t("#{body_data[:slug]}.tab_0.li_12")
+  %p
+    %a{class: "link-intern", title: t("#{body_data[:slug]}.link_01_title"), href: t("#{body_data[:slug]}.link_01_href")}=t("#{body_data[:slug]}.link_01_innerHTML")
+%div.toggle-tab.hidden#tab_1
+  %article#tab_1_0
+    %header.toggle.ta=t("#{body_data[:slug]}.tab_1_0.h2_01")
+    %div
+      %p=t("#{body_data[:slug]}.tab_1_0.p_00")
+      %p=t("#{body_data[:slug]}.tab_1_0.p_01")
+      %p=t("#{body_data[:slug]}.tab_1_0.p_02")
+      %header=t("#{body_data[:slug]}.tab_1_0.h2_02")
+      %ul#ul_tab1.arrow-blue
+        %li=t("#{body_data[:slug]}.tab_1_0.li_01")
+        %li=t("#{body_data[:slug]}.tab_1_0.li_02")
+        %li=t("#{body_data[:slug]}.tab_1_0.li_03")
+        %li=t("#{body_data[:slug]}.tab_1_0.li_04")
+        %li=t("#{body_data[:slug]}.tab_1_0.li_05")
+        %li=t("#{body_data[:slug]}.tab_1_0.li_06")
+        %li=t("#{body_data[:slug]}.tab_1_0.li_07")
+        %li=t("#{body_data[:slug]}.tab_1_0.li_08")
+      %p=t("#{body_data[:slug]}.tab_1_0.p_03")
+      %p=t("#{body_data[:slug]}.tab_1_0.p_04")
+      %p=t("#{body_data[:slug]}.tab_1_0.p_05")
+      %q=t("#{body_data[:slug]}.tab_1_0.q_06")
+  %article#tab_1_1
+    %header.toggle.ta= t("#{body_data[:slug]}.tab_1_1.title")
+    %div.hidden
+      %ul.arrow-blue
+        %li<
+          = t("#{body_data[:slug]}.tab_1_1.li_01.li_01_00")
+          %ul.arrow-grey
+            %li= t("#{body_data[:slug]}.tab_1_1.li_01.li_01_01")
+            %li= t("#{body_data[:slug]}.tab_1_1.li_01.li_01_02")
+            %li= t("#{body_data[:slug]}.tab_1_1.li_01.li_01_03")
+            %li= t("#{body_data[:slug]}.tab_1_1.li_01.li_01_04")
+            %li= t("#{body_data[:slug]}.tab_1_1.li_01.li_01_05")
+        %li= t("#{body_data[:slug]}.tab_1_1.li_02")
+        %li= t("#{body_data[:slug]}.tab_1_1.li_03")
+        %li<
+          = t("#{body_data[:slug]}.tab_1_1.li_04.li_04_00")
+          %ul.arrow-grey
+            %li= t("#{body_data[:slug]}.tab_1_1.li_04.li_04_01")
+            %li= t("#{body_data[:slug]}.tab_1_1.li_04.li_04_02")
+            %li= t("#{body_data[:slug]}.tab_1_1.li_04.li_04_03")
+            %li= t("#{body_data[:slug]}.tab_1_1.li_04.li_04_04")
+        %li= t("#{body_data[:slug]}.tab_1_1.li_05")
+      %q= t("#{body_data[:slug]}.tab_1_1.q_01")
+= haml "widgets/_refs".to_sym, locals: {refs: "r05"}

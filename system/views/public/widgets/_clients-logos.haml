@@ -1,0 +1,9 @@
+%article#refs_all
+  %header#refs_all_title= t("refs.sidebar.header_01")
+  %img{:src => "/images/logo/map_R.png"}
+  %header.toggle#refs_all_content= t("refs.sidebar.header_02")
+  %img{:src => "/images/logo/logo_all.png"}
+%article
+  %header#refs_link_title= t("refs.sidebar.header_03")
+  %p
+    %a{class: "link-intern", title: t('refs.sidebar.link_title'), href: t('refs.sidebar.link_href')}=t('refs.sidebar.link_innerHTML')

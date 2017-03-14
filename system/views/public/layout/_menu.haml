@@ -1,0 +1,14 @@
+:ruby
+  items = ['index', 'services', 'gallery', 'clients', 'contact']
+
+%ul
+  - items.each do |slug|
+    %li{active_class("#{slug}")}
+      %a{href: "#{t("menu.path")}#{slug}.html"}= t("menu.#{slug}")
+%span
+  %a{href: "/utils/lang/ro/#{body_data[:slug]}.html",title: t('lang.ro')}
+    %img{src: "#{Arta.firm.images_path}/icons/ro.png",alt: t('lang.ro')}
+  %a{href: "/utils/lang/en/#{body_data[:slug]}.html",title: t('lang.en')}
+    %img{src: "#{Arta.firm.images_path}/icons/en.png",alt: t('lang.en')}
+  %a{href: "/utils/lang/hu/#{body_data[:slug]}.html",title: t('lang.hu')}
+    %img{src: "#{Arta.firm.images_path}/icons/hu.png",alt: t('lang.hu')}

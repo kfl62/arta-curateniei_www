@@ -1,0 +1,26 @@
+- case body_data[:slug]
+- when "index"
+  = haml "widgets/_address".to_sym
+  = haml "widgets/_phone".to_sym
+  = haml "widgets/_news".to_sym
+- when "services"
+  = haml "widgets/_servicesW".to_sym
+  = haml "widgets/_address".to_sym
+- when "products"
+  = haml "widgets/_products".to_sym
+  = haml "widgets/_address".to_sym
+  = haml "widgets/_phone".to_sym
+- when "gallery"
+  = haml "widgets/_gallery".to_sym
+  = haml "widgets/_address".to_sym
+  = haml "widgets/_phone".to_sym
+- when "clients"
+  = haml "widgets/_clients-logos".to_sym
+- when "contact"
+  = haml "widgets/_address".to_sym
+  = haml "widgets/_phone".to_sym
+  = haml "widgets/_weather".to_sym
+- else
+  %article
+    %header= t("#{body_id[:slug]}.uc")
+

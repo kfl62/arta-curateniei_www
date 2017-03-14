@@ -1,0 +1,105 @@
+ro:
+  arta:
+    refs:
+      header: "Ce spun alții..."
+      r01:
+        title: "ThyssenKrupp Bilstein Compa, Sibiu"
+        content: "Munca programată, noile tehnologii folosite, contactul permanent cu clientul, respectarea unor termene scurte, sunt caracteristici care ne determină să recomandăm fără rețineri profesionalismul și seriozitatea oferită de <strong>Cleantech Com</strong>..."
+        signature: "ThyssenKrupp Bilstein Compa"
+      r02:
+        title: "Trelleborg, Dej"
+        content: "Firma <strong>Cleantech Com</strong> ne-a pus la dispoziție o gamă diversificată de soluții practice, moderne și eficiente pentru toate problemele ridicate de complexitatea activității de curățenie la obiectivul nostru..."
+        signature: "Trelleborg "
+      r03:
+        title: "Auto Chassis International, Mioveni, Argeș"
+        content: "Société <strong>Cleantech Com</strong> de Cluj-Napoca, spécialisée dans le domaine du nettoyage industriel, travaille pour nous depuis le 01.06.2003. Nous confirmons par ce courier: le sérieux, l'efficacité de cette entreprise qui sait mettre en oeuvre des solutions techniques d'actualité."
+        signature: "Auto Chassis International"
+      r04:
+        title: "Rio Bucovina, Vatra Dornei"
+        content: "Compania <strong>Cleantech Com</strong> din Cluj-Napoca, furnizorul nostru de produse și servicii de curățenie profesională, ne-a echipat depozitele din țară cu mașini automate de spălat pardoseli și ne-a furnizat metodologia adecvată fiecărei locații în parte. Firma dispune de un personal foarte bine instruit și motivat. Un lucru mai puțin obișnuit la noi în țară: personalul <strong>Cleantech Com</strong> dispune de diplome de calificare \"agent de curățenie clădiri\". Astfel societatea se bucură de aprecierile noastre și ne determină să-i recomandăm cu căldura și altor sociețăti, cu activitate similară cu profilul nostru."
+        signature: "Rio Bucovina"
+      r05:
+        title: "Millefiori, Arad"
+        content: "Firma <strong>Cleantech Com</strong> se remarcă prin seriozitatea cu care respectă termenele convenite, prin calitatea lucrărilor prestate și prin atenția pe care o acordă fiecărui detaliu și fiecărei lucrări în parte. De aceea este un partener de încredere, cu care ne face plăcere să colaborăm și pe care nu ezităm sa îl recomandăm și altor companii."
+        signature: "Millefiori"
+      r06:
+        title: "Bibilioteca Centrală Universitară \"Lucian Blaga\", Cluj"
+        content: "Experiența și referințele prezentate, sistemul contractual corect al serviciilor de calitate oferite la prețuri competitive, ne-au determinat să devenim partenerii sociețătii <strong>Cleantech Com</strong>..."
+        signature: "Bibilioteca Centrală Universitara \"Lucian Blaga\""
+      sidebar:
+        header_01: "Au aflat pe unde lucrăm..."
+        header_02: "și ne-au ales pe noi:"
+        header_03: "De ce nu? Chiar și Dvs.?"
+        link_href: "/contact.html"
+        link_title: "Nu ezitați să ne contactați!"
+        link_innerHTML: "&nbsp;un <strong>Click</strong> pentru detalii"
+hu:
+  arta:
+    refs:
+      header: "Ce spun alții..."
+      r01:
+        title: "ThyssenKrupp Bilstein Compa, Sibiu"
+        content: "Munca programată, noile tehnologii folosite, contactul permanent cu clientul, respectarea unor termene scurte, sunt caracteristici care ne determină să recomandăm fără rețineri profesionalismul și seriozitatea oferită de <strong>Cleantech Com</strong>..."
+        signature: "ThyssenKrupp Bilstein Compa"
+      r02:
+        title: "Trelleborg, Dej"
+        content: "Firma <strong>Cleantech Com</strong> ne-a pus la dispoziție o gamă diversificată de soluții practice, moderne și eficiente pentru toate problemele ridicate de complexitatea activității de curățenie la obiectivul nostru..."
+        signature: "Trelleborg "
+      r03:
+        title: "Auto Chassis International, Mioveni, Argeș"
+        content: "Société <strong>Cleantech Com</strong> de Cluj-Napoca, spécialisée dans le domaine du nettoyage industriel, travaille pour nous depuis le 01.06.2003. Nous confirmons par ce courier: le sérieux, l'efficacité de cette entreprise qui sait mettre en oeuvre des solutions techniques d'actualité."
+        signature: "Auto Chassis International"
+      r04:
+        title: "Rio Bucovina, Vatra Dornei"
+        content: "Compania <strong>Cleantech Com</strong> din Cluj-Napoca, furnizorul nostru de produse și servicii de curățenie profesională, ne-a echipat depozitele din țară cu mașini automate de spălat pardoseli și ne-a furnizat metodologia adecvată fiecărei locații în parte. Firma dispune de un personal foarte bine instruit și motivat. Un lucru mai puțin obișnuit la noi în țară: personalul <strong>Cleantech Com</strong> dispune de diplome de calificare \"agent de curățenie clădiri\". Astfel societatea se bucură de aprecierile noastre și ne determină să-i recomandăm cu căldura și altor sociețăti, cu activitate similară cu profilul nostru."
+        signature: "Rio Bucovina"
+      r05:
+        title: "Millefiori, Arad"
+        content: "Firma <strong>Cleantech Com</strong> se remarcă prin seriozitatea cu care respectă termenele convenite, prin calitatea lucrărilor prestate și prin atenția pe care o acordă fiecărui detaliu și fiecărei lucrări în parte. De aceea este un partener de încredere, cu care ne face plăcere să colaborăm și pe care nu ezităm sa îl recomandăm și altor companii."
+        signature: "Millefiori"
+      r06:
+        title: "Bibilioteca Centrală Universitară \"Lucian Blaga\", Cluj"
+        content: "Experiența și referințele prezentate, sistemul contractual corect al serviciilor de calitate oferite la prețuri competitive, ne-au determinat să devenim partenerii sociețătii <strong>Cleantech Com</strong>..."
+        signature: "Bibilioteca Centrală Universitara \"Lucian Blaga\""
+      sidebar:
+        header_01: "Au aflat pe unde lucrăm..."
+        header_02: "și ne-au ales pe noi:"
+        header_03: "De ce nu? Chiar și Dvs.?"
+        link_href: "/arta-curateniei-cluj-contact.html"
+        link_title: "Nu ezitați să ne contactați!"
+        link_innerHTML: "&nbsp;un <strong>Click</strong> pentru detalii"
+en:
+  arta:
+    refs:
+      header: "Ce spun alții..."
+      r01:
+        title: "ThyssenKrupp Bilstein Compa, Sibiu"
+        content: "Munca programată, noile tehnologii folosite, contactul permanent cu clientul, respectarea unor termene scurte, sunt caracteristici care ne determină să recomandăm fără rețineri profesionalismul și seriozitatea oferită de <strong>Cleantech Com</strong>..."
+        signature: "ThyssenKrupp Bilstein Compa"
+      r02:
+        title: "Trelleborg, Dej"
+        content: "Firma <strong>Cleantech Com</strong> ne-a pus la dispoziție o gamă diversificată de soluții practice, moderne și eficiente pentru toate problemele ridicate de complexitatea activității de curățenie la obiectivul nostru..."
+        signature: "Trelleborg "
+      r03:
+        title: "Auto Chassis International, Mioveni, Argeș"
+        content: "Société <strong>Cleantech Com</strong> de Cluj-Napoca, spécialisée dans le domaine du nettoyage industriel, travaille pour nous depuis le 01.06.2003. Nous confirmons par ce courier: le sérieux, l'efficacité de cette entreprise qui sait mettre en oeuvre des solutions techniques d'actualité."
+        signature: "Auto Chassis International"
+      r04:
+        title: "Rio Bucovina, Vatra Dornei"
+        content: "Compania <strong>Cleantech Com</strong> din Cluj-Napoca, furnizorul nostru de produse și servicii de curățenie profesională, ne-a echipat depozitele din țară cu mașini automate de spălat pardoseli și ne-a furnizat metodologia adecvată fiecărei locații în parte. Firma dispune de un personal foarte bine instruit și motivat. Un lucru mai puțin obișnuit la noi în țară: personalul <strong>Cleantech Com</strong> dispune de diplome de calificare \"agent de curățenie clădiri\". Astfel societatea se bucură de aprecierile noastre și ne determină să-i recomandăm cu căldura și altor sociețăti, cu activitate similară cu profilul nostru."
+        signature: "Rio Bucovina"
+      r05:
+        title: "Millefiori, Arad"
+        content: "Firma <strong>Cleantech Com</strong> se remarcă prin seriozitatea cu care respectă termenele convenite, prin calitatea lucrărilor prestate și prin atenția pe care o acordă fiecărui detaliu și fiecărei lucrări în parte. De aceea este un partener de încredere, cu care ne face plăcere să colaborăm și pe care nu ezităm sa îl recomandăm și altor companii."
+        signature: "Millefiori"
+      r06:
+        title: "Bibilioteca Centrală Universitară \"Lucian Blaga\", Cluj"
+        content: "Experiența și referințele prezentate, sistemul contractual corect al serviciilor de calitate oferite la prețuri competitive, ne-au determinat să devenim partenerii sociețătii <strong>Cleantech Com</strong>..."
+        signature: "Bibilioteca Centrală Universitara \"Lucian Blaga\""
+      sidebar:
+        header_01: "Au aflat pe unde lucrăm..."
+        header_02: "și ne-au ales pe noi:"
+        header_03: "De ce nu? Chiar și Dvs.?"
+        link_href: "/arta-curateniei-cluj-contact.html"
+        link_title: "Nu ezitați să ne contactați!"
+        link_innerHTML: "&nbsp;un <strong>Click</strong> pentru detalii"

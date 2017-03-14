@@ -1,0 +1,218 @@
+section.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  article {
+  border: 1px solid #e5e5e5;
+  margin: 1.2rem 0;
+    header {
+    background-repeat: no-repeat;
+    color: #00a5df;
+    display: block;
+    font-style: italic;
+    line-height: 3.6rem;
+    }
+    ul.arrow-blue, ul.arrow-grey {
+    margin: 10px 0px 20px 15px;
+      li {
+        background: {
+          position: 0px 5px;
+          repeat: no-repeat;
+        };
+        margin-bottom: 5px;
+        padding-left: 15px;
+      }
+    }
+    ul.arrow-blue {
+      li {
+        background: {
+          image: image_url(unquote("/images/icons/arrow_blue.png"));
+        };
+      }
+    }
+    ul.arrow-grey {
+      li {
+        background: {
+          image: image_url(unquote("/images/icons/arrow_grey.png"));
+        };
+        color: #333333;
+      }
+    }
+    p {
+      text-align: justify;
+      strong {
+        color: #00a5df;
+        font-weight: normal;
+      }
+      a.link-intern {
+        background: {
+          image: image_url(unquote("/images/icons/button_green.png"));
+          position: center right;
+          repeat: no-repeat;
+        };
+        border: 1px solid #e5e5e5;
+        color: #7c9015;
+        padding: 5px 30px 5px 10px;
+        &:hover {
+          background: {
+            image: image_url(unquote("/images/icons/button_blue.png"));
+            position: center right;
+            repeat: no-repeat;
+          };
+          color: #7c9015;
+          border: 1px solid #333333;
+        }
+      }
+    }
+  }
+  aside.main{
+    flex: 1;
+    background-color: $arta-color-bg-light;
+    nav > ul[id='ul_tabs'] {
+      @include horizontal-list;
+      li {
+        @include border-radius-bottom-right(0.5em);
+        border-bottom: 2px solid #e5e5e5;
+        border-right: 2px solid #e5e5e5;
+        cursor: pointer;
+        font-size: 1.1em;
+        line-height: 30px;
+        margin: 10px 5px 0px;
+        &.active {
+          color: #7c9015;
+        }
+      }
+      & > li:first-child {
+        background: {
+          image: image_url(unquote("/images/icons/processes.png"));
+          position: left;
+          repeat: no-repeat;
+        };
+        padding: 0 1rem 0 2rem;
+      }
+      & > li:last-child {
+        background: {
+          image: image_url(unquote("/images/icons/comment_edit.png"));
+          position: left;
+          repeat: no-repeat;
+        };
+        padding: 0 1rem 0 2rem;
+      }
+    }
+    article {
+      padding: 0 1.2rem;
+      header{
+        font-size: 1.8rem;
+        &[class*='ta'] {
+          @include widget-header-background(blank, true);
+        }
+        &[class='contact']{
+          font-size: 1.4rem;
+        }
+      }
+      p {
+        &.first-letter {
+          @include cleantech_first_letter;
+        }
+        &[id='refs_r01'] {
+          @include widget_refs_background(bilstein);
+        }
+        &[id='refs_r02'] {
+          @include widget_refs_background(trelleborg);
+        }
+        &[id='refs_r03'] {
+          @include widget_refs_background(aci);
+        }
+        &[id='refs_r04'] {
+          @include widget_refs_background(riobucovina);
+        }
+        &[id='refs_r05'] {
+          @include widget_refs_background(millefiori);
+        }
+        &[id='refs_r06'] {
+          @include widget_refs_background(bcu);
+        }
+        & > q {
+          color: #7c9015;
+          display: inline;
+          font-style: italic;
+          padding: 0 0 0 0;
+          quotes: "\201C" "\201D";
+        }
+      }
+      img[src$='article_00.jpg'] {
+        margin-left: -0.7rem;
+      }
+      q {
+        color: #7c9015;
+        display: block;
+        font-style: italic;
+        padding: 0em 0.5em 1.5em 1em;
+        quotes: "\201C" "\201D";
+      }
+      li > q {
+        color: #7c9015;
+        display: inline;
+        font-style: italic;
+        padding: 0 0 0 0;
+        quotes: "\201C" "\201D";
+      }
+    }
+  }
+  aside.sidebar{
+    flex: 0 26rem;
+    margin-left: 1rem;
+    article {
+      header {
+        font-size: 1.4rem;
+        padding-left: 2.8rem;
+        &[id='google_title'] {
+          @include widget-header-background(home, true);
+        }
+        &[id='phone_title'] {
+          @include widget-header-background(telephone);
+        }
+        &[id='news_title'] {
+          @include widget-header-background(favorite, true);
+        }
+        &[id='refs_all_title'] {
+          @include widget-header-background(processes);
+        }
+        &[id='refs_all_content'] {
+          @include widget-header-background(user_accept, true);
+        }
+        &[id='weather_title'] {
+          @include widget-header-background(favorite, true);
+        }
+      }
+      img {
+        padding-left: 0.4rem;
+      }
+      p {
+        display: inline-block;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        span {
+          float: left;
+          padding-left: 1.5rem;
+        }
+      }
+      q {
+        color: #7c9015;
+        display: block;
+        font-style: italic;
+        padding: 0em 0.5em 1.5em 1em;
+        quotes: "\201C" "\201D";
+      }
+      table {
+        margin: auto;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+      }
+    }
+    #google_map {
+      height: 25rem;
+    }
+  }
+}

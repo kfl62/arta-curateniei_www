@@ -1,0 +1,13 @@
+:ruby
+  @body_data = {slug: 'gallery'}
+
+%article#article_00.active
+  %header= t("#{body_data[:slug]}.article_00.header")
+  %p= t("#{body_data[:slug]}.article_00.p_01")
+  %img{:src => '/images/gallery/article_00.jpg'}
+  %p= t("#{body_data[:slug]}.article_00.p_02")
+%article#article_01.hidden
+  %header= t("#{body_data[:slug]}.article_01.header")
+%article#article_02.hidden
+  %header= t("#{body_data[:slug]}.article_02.header")
+

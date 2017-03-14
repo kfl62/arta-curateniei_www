@@ -1,0 +1,20 @@
+ro:
+  arta:
+    lang:
+      ro: Română
+      hu: Maghiară
+      en: Engleză
+
+hu:
+  arta:
+    lang:
+      ro: Román
+      hu: Magyar
+      en: Angol
+
+en:
+  arta:
+    lang:
+      ro: Romanian
+      hu: Hungarian
+      en: English

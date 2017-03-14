@@ -1,0 +1,34 @@
+%article
+  %header.toggle#weather_title= t('weather.title')
+  %table#xhr_weather
+    %tbody
+      %tr
+        %td{:colspan => 3}
+          Astăzi la ora <span class= 'otime'></span> se înregistrau:
+      %tr
+        %td{:rowspan => 6}
+          %img.oicon{:src => "" , :width => "60px", :title => ""}
+        %td Temp.
+        %td <span class = 'tempC'></span>&#176;C
+      %tr
+        %td Pres.&nbsp;&nbsp;<span class = 'prest' style = 'color:red'></span>
+        %td <span class = 'press'></span>Hgmm
+      %tr
+        %td Vânt.
+        %td <span class = 'winds'></span>km/h - <span class = 'windd'></span>
+      %tr
+        %td Umid.
+        %td <span class = 'humid'></span>
+      %tr
+        %td Vizib.
+        %td - km
+      %tr
+        %td UV
+        %td -
+      %tr
+        %td{colspan: 3}
+          Soarele răsare: <span class = 'sunsr'></span>, apune: <span class = 'sunss'></span>
+      %tr
+        %td{colspan: 3}
+          %a.forec{target: "new", :href => ""}
+            %img{src: "http://icons.wxug.com/logos/PNG/wundergroundLogo_4c_horz.png", width: "220px"}
